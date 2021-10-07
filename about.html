@@ -1,52 +1,51 @@
 <!-- This Page Was Created By Matt Wilkinson-->
+<!-- This Page Was Improved By Max Diaz-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style type="text/css">
-	ul{
-	  font-family: empirefont;
-	  font-style: bold;
-	  font-weight: 100;
-	  text-align: center;
-	  color: white;
-	  list-style: none
-}
-	</style>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css_star_wars.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
+
 	<title>About Us</title>
-
-
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Home Page</a>					
-				</li>
-				<li>
-					<a href="about.html">About Us</a>
-				</li>
-				<li>
-					<a href="endor.html">Endor</a>
-				</li>
-				<li>
-					<a href="alderaan.html">Alderaan</a>
-				</li>
-				<li>
-					<a href="tatooine.html">Tatooine</a>
-				</li>
-				<li>
-					<a href="eadu.html">Eadu</a>
-				</li>
-			</ul>
-		</nav>
-		<img src="images/companylgo.png" alt="Imperial recruiter flag" height="450" Width = "200"/>
-	<h1>Imperial Army Recruiting</h1>
-	</header>
-	
-<h1>What we do:</h1>
+	<div class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Galatic Empire</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home Page <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="endor.html">Endor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="alderaan.html">Alderaan</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tatooine.html">Tatooine</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="eadu.html">Eadu</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </header>
+	  <h1>Imperial Army Recruiting</h1>
+		<h1>What we do:</h1>
 	<ul>
 		<li>Hunt Jedi</li>
 		<li>Conquer planets</li>
@@ -58,42 +57,46 @@
 <h2>
 	Heads of State
 </h2>
-<img src="images/Leaders.png" alt="leaders" height="450" Width = "250"/>
-<table class="tables">
-			<thead>
-					<tr>
-						<th>Emperor Palpatine</th>
-						<th>Lord Darth Vader</th>
-						<th>Grand Moff Tarkin</th>
-					</tr>
+<img src="images/Leaders.png" alt="leaders" height="450" Width = "720"/>
 
-				</thead>
-				<tbody>
-					<tr>
-					<td>Degree in Inter-Planetary Relationships<br>from Starvard</td>
-					<td>Degree in Speeder Engineering from <br> Malachor Institue of Technology</td>
-					<td>Degree in Khyber Crystal Weapons and Interplanetary Relations <br>from The Imperial State University</td>
-					</tr>
-						
-					</tbody>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Emperor Palpatine</th>
+      <th scope="col">Lord Darth Vader</th>
+      <th scope="col">Grand Moff Tarkin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Degree in Inter-Planetary Relationships</td>
+      <td>Degree in Speeder Engineering from Malachor Institue of Technology</td>
+      <td>Degree in Khyber Crystal Weapons</td>
+    </tr>
+    <tr>
+      <td>Avid Learner in the Sith Arts</td>
+      <td>Thirty years of mastering the ancient art of lightsaber duel</td>
+      <td>Interplanetary Relations from The Imperial State University</td>
+    </tr>
+  </tbody>
 </table>
-<img src="images/victory.png" alt="victory parade" height="450" Width = "200"/>
+<img src="images/victory.png" alt="victory parade" height="500" Width = "720"/>
 <h3>Recent Liberations</h3>
 	<ul class="tables">
-		<li>Coruscant</li>
-		<li>Mandalore</li>
-		<li>Exegol</li>
-		<li>Kamino</li>
-		<li>Tatooine</li>
+		<li><a href="alderaan.html" class="list-group-item list-group-item-action list-group-item-primary">Alderaan</a></li>
+		<li><a href="eadu.html" class="list-group-item list-group-item-action list-group-item-primary">Eadu</a></li>
+		<li><a href="endor.html" class="list-group-item list-group-item-action list-group-item-primary">Endor</a></li>
+		<li><a href="tatooine.html" class="list-group-item list-group-item-action list-group-item-primary">Tatooine</a></li>
 	</ul>
+	<br /> 
 <footer>
 	&copy; 10 B.B.Y
 		<u><b>Warning. Anyone who tries to copy this website, will be hunted down as a rebel</b></u>
 </footer>
+ <br />
+ </div><!--closes cointainer-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous"></script>
 </body>
-
-
 </html>
-
-
-

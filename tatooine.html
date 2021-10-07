@@ -1,43 +1,51 @@
 <!-- Bryce Wilbur's file-->
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css_star_wars.css">
-	<title>Tatooine</title>
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
 
+	<title>Tatooine</title>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Home Page</a>				
-				</li>
-				<li>
-					<a href="about.html">About Us</a>
-				</li>
-				<li>
-					<a href="endor.html">Endor</a>
-				</li>
-				<li>
-					<a href="alderaan.html">Alderaan</a>
-				</li>
-				<li>
-					<a href="tatooine.html">Tatooine</a>
-				</li>
-				<li>
-					<a href="eadu.html">Eadu</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+	<div class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Galatic Empire</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home Page <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="endor.html">Endor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="alderaan.html">Alderaan</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tatooine.html">Tatooine</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="eadu.html">Eadu</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </header>
 	<h1>Tatooine</h1>
 	<h2>A desolate planet; but with a bright future.</h2>
 
-	<img src="images/Tatooine.png" alt="tat flag" height="450" Width = "200"/>
+	<img src="images/Tatooine.png" alt="tat flag" height="450" Width = "600"/>
 
 	<p class="paragraph">
 		A common saying goes; "what once was golden but now decrepit, can be made golden again." The planet of Tatooine fits this narrative. Legend has it that before the birth of the now fallen Republic, Tatooine was a lush planet. Full of rainforests, oceans, and arable plains. However the planet dried up, given its distance from its suns. The planet was also further destabilized when it was discovered that the planet contained precious metallurgies. However these miners realized that they didn't want the metals anymore and quickly left Tatooine. A once powerful war lord called Jabba also roamed this planet. However, Jabba is now dead, and his once powerful minions are in need of leadership and military capability.
@@ -48,43 +56,41 @@
 
 	<h2>Your opportunites</h2>
 	<p class="paragraph">Just like on Eadu, you will have a multitude of opportunities to care for your empire or to rise through the ranks.</p>
-	
-	<table>
-		<thead>
-		</thead>
-		<tbody>
-			<tr class="tables">
-				<th>
-					Agricultural Opportunities
-					<ol>
-						<li>Research Irrigation Systems.</li>
-						<li>Study up on Sustainable farming.</li>
-						<li>Research Environmental safety.</li>
-					</ol>
-				</th>
-				
-				<th>
-					Military Opportunities
-					<ol>
-						<li>Hunt down rebel scum in hiding.</li>
-						<li>Practice fighting in the desert with Jabba's minions.</li>
-					</ol>
-				</th>
-
-				<th>
-					Political opportunities
-					<ol>
-						<li>Aid Darth Vader or the Emperor himself in hunting down corrupt Jedi warlords hiding out in the deserts.</li>
-						<li>Aid the Empire in establishing a highly-centralized government.</li>
-					</ol>
-				</th>
-			</tr>
-
-		</tbody>
-	</table>
+	<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Agricultural Opportunities</th>
+      <th scope="col">Military Opportunities</th>
+      <th scope="col">Military Opportunities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research Irrigation Systems.</td>
+      <td>Hunt down rebel scum in hiding.</td>
+      <td>Aid Darth Vader or the Emperor himself in hunting down corrupt Jedi warlords hiding out in the deserts.</td>
+    </tr>
+    <tr>
+      <td>Study up on Sustainable farming.</td>
+      <td>Practice fighting in the desert with Jabba's minions.</td>
+      <td>Aid the Empire in establishing a highly-centralized government.</td>
+    </tr>
+    <tr>
+      <td>Research Environmental safety.</td>
+      <td>Work with Bounty Hunters like Boba Fett.</td>
+      <td>Establish a succesful Galatic Empire Administration in wild Tatooine desert.</td>
+    </tr>
+  </tbody>
+</table>
+	<br /> 
 	<footer>
 	&copy; 10 B.B.Y
 		<u><b>Warning. Anyone who tries to copy this website, will be hunted down as a rebel</b></u>
 	</footer>
+ <br />
+ </div><!--closes cointainer-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous"></script>
 </body>
 </html>

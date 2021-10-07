@@ -1,81 +1,109 @@
 <!DOCTYPE html>
-<!-- This Page Was Created By Matt Wilkinson-->
 <html lang="en">
 <head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css_star_wars.css">
-		<title>Imperial Recruiting Center</title>
-		<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
 
-		#indexmeme {
-		  font-size: 45px;
-		}
-
-		.paragraph{
-		  font-size: 20px;
-
-		}
-
-		.tables{
-		  font-size: 20px;
-
-		  h1 {
-      			text-align: center;
-      			font-size: 12px;
-  		}
-
-
-	  		p{
-	  			text-align: center;
-	      		font-size: 16px;
-	  		}
-  		
-		</style>
+	<title>Home Page</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Home Page</a>					
-				</li>
-				<li>
-					<a href="about.html">About Us</a>
-				</li>
-				<li>
-					<a href="endor.html">Endor</a>
-				</li>
-				<li>
-					<a href="alderaan.html">Alderaan</a>
-				</li>
-				<li>
-					<a href="tatooine.html">Tatooine</a>
-				</li>
-				<li>
-					<a href="eadu.html">Eadu</a>
-				</li>
-			</ul>
-		</nav>
-		<img src="images/companylgo.png" alt="Imperial recruiter flag" height="350" Width = "200"/>
-	<h1 id = >Imperial Army Recruiting</h1>
-	</header>
-	<img src="images/Recruitment.png" alt="Recruitmentl"/>
+	<div class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Galatic Empire</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home Page <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="endor.html">Endor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="alderaan.html">Alderaan</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tatooine.html">Tatooine</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="eadu.html">Eadu</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </header>
+		<img alt="Imperial recruiter flag" height="450" src="images/companylgo.png" width="600">
+
+		<h1>Imperial Army Recruiting</h1>
+	<img alt="Recruitmentl" src="images/Recruitment.png">
+
 	<h2>Why Join ?</h2>
-	<p id="paragraph">Joining the Empire in the fight against disorder and imbalance in the galaxy will be one of the most important thing that you will do in your lifetime. <br>Your service will expose you to all sorts of people from around the galaxy and bring you aboard our grand fleet of star destroyers, along with allowing you<br> to experience the wondrous anomaly that our existence in this galaxy is as you marvel the sights of previously undiscovered and unchartered systems, <br>planets, moons, stars and everything inbetween. Of course you also get to take part in epic battles and win glory beyond your wildest dreams, battles for the glorious emperor that will go down in history! What are you waiting for <em>join today !.</em></p>
-	<h2>View a collection of planets that you could deploy to !
-</h2>
 
-	<ol class="tables">
-		<li>Alderaan: The Planet Of Beauty </li>
-		<li>Eadu: A storm Planet in the Outer Rim</li>
-		<li>Endor: Small forest moon known for wildlife</li>
-		<li>Tatooine: Desert planet with 2 Suns, Great place to get a tan!</li>
-	</ol>
-	
-<footer>
-	&copy; 10 B.B.Y
-		<u><b>Warning. Anyone who tries to copy this website, will be hunted down as a rebel</b></u>
-</footer>
+
+	<p>Joining the Empire in the fight against disorder and imbalance in the galaxy will be one of the most important thing that you will do in your lifetime.<br>
+	Your service will expose you to all sorts of people from around the galaxy and bring you aboard our grand fleet of star destroyers, along with allowing you<br>
+	to experience the wondrous anomaly that our existence in this galaxy is as you marvel the sights of previously undiscovered and unchartered systems,<br>
+	planets, moons, stars and everything inbetween. Of course you also get to take part in epic battles and win glory beyond your wildest dreams, battles for the glorious emperor that will go down in history! What are you waiting for <em>join today !.</em></p>
+
+
+	<h2>View a collection of planets that you could deploy to !</h2>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/alderaan.gif" height="270" class="card-img-top" alt="alderaan">
+      <div class="card-body">
+        <h5 class="card-title">Alderaan:</h5>
+        <p class="card-text">The Planet Of Beauty.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/endor1.gif" height="270" class="card-img-top" alt="endor">
+      <div class="card-body">
+        <h5 class="card-title">Endor</h5>
+        <p class="card-text">Small forest moon known for wildlife.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/eadu.gif" height="270" class="card-img-top" alt="eadu">
+      <div class="card-body">
+        <h5 class="card-title">Eadu:</h5>
+        <p class="card-text">A storm Planet in the Outer Rim.</p>
+      </div>
+    </div>
+  </div> 
+  <div class="col">
+    <div class="card">
+      <img src="images/tatooine.gif" class="card-img-top" alt="tat">
+      <div class="card-body">
+        <h5 class="card-title">Tatooine:</h5>
+        <p class="card-text">Desert planet with 2 Suns, Great place to get a tan!</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+	<footer>
+		&copy; 10 B.B.Y <u><b>Warning. Anyone who tries to copy this website, will be hunted down as a rebel</b></u>
+	</footer>
+	<br /> 
+</div><!--closes cointainer-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous"></script>
 </body>
-
 </html>
